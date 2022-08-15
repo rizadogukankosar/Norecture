@@ -27,18 +27,20 @@
                 </div>
                 <!-- right header section -->
                 <div class="flex items-center space-x-2">
-                    <button class="px-4 py-2 text-blue-100 bg-sky-900 rounded-md">
-              Shop
-            </button>
+
+                    <button type="button" class="text-white bg-sky-900 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 dark:bg-sky-800 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <svg aria-hidden="true" class="mr-2 -ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+                Buy now
+              </button>
                 </div>
             </nav>
-            <div id="default-carousel" class="relative w-full px-36  mt-12 " data-carousel="slide">
+            <div id="default-carousel" class="relative w-full h-screen   mt-12 " data-carousel="slide">
                 <!-- Carousel wrapper -->
-                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-screen">
                     <!-- Item 1 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                        <img src="assets/images/body_challenge.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                        <img src="assets/images/body_challenge.png" class=" absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                     </div>
                     <!-- Item 2 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
@@ -79,6 +81,32 @@
 
     <section id="products">
 
+        <div class="grid grid-cols-2 flex justify-items-center px-16 mt-8">
+            <div class="relative ">
+                <a class="absolute inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+                    <p class="font-medium">Norecture</p>
+                    <h1 class="tracking-wider text-7xl font-medium ">MAN</h1>
+                </a>
+                <a href="#" class="relative">
+                    <div class="flex flex-wrap content-center">
+                        <img src="assets/images/product.jpg" class="w-auto">
+
+                    </div>
+                </a>
+            </div>
+            <div class="relative ">
+                <a class="absolute inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+                    <p class="font-medium">Norecture</p>
+                    <h1 class="tracking-wider text-7xl font-medium ">WOMAN</h1>
+                </a>
+                <a href="#" class="relative">
+                    <div class="flex flex-wrap content-center">
+                        <img src="assets/images/product.jpg" class="w-auto">
+                    </div>
+                </a>
+            </div>
+
+        </div>
 
         <div class="grid grid-cols-3 flex justify-items-center p-12 ">
             <div class="group max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-14 hover:bg-gradient-to-r from-sky-900 to-gray-500 ">
@@ -186,7 +214,7 @@
             </div>
         </div>
 
-        <p><a href="https://www.rizadogukankosar.online/ " target="_blank " class="text-xl text-bold flex justify-center mb-14 ">See all products</a></p>
+        <p><a href="shop.html" class="text-xl text-bold flex justify-center mb-14 ">See all products</a></p>
 
     </section>
 
