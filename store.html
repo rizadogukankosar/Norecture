@@ -3,44 +3,28 @@
 
 <head>
     <title>Norecture</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <link rel="stylesheet" href="assets/stylesheets/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/flowbite@latest/dist/flowbite.min.css" />
+
+
 </head>
 
-<body>
+<body class="bg-[#f3f3f3]">
     <script src="https://unpkg.com/flowbite@latest/dist/flowbite.js"></script>
-
     <header id="home">
         <div class="h-auto flex justify-center items-center mx-auto flex-col">
             <div class="bg-white w-full">
                 <nav class="border-gray-200 px-2 sm:px-4 py-2.5 ">
                     <div class="container flex flex-wrap justify-between items-center mx-auto">
-                        <a href="index.html" class="flex items-center">
-                            <h3 class="text-2xl font-medium text-black animate-pulse">
+                        <a href="index.html" class="flex items-center animate-pulse">
+                            <h3 class="text-2xl font-medium text-black ">
                                 Norecture
                             </h3>
+                            <p>Store</p>
                         </a>
                         <div class="flex md:order-2">
-                            <a href="store.html">
-                                <button type="button" class="flex justify-between text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                              <svg
-                                aria-hidden="true"
-                                class="mr-2 -ml-1 w-5 h-5"
-                                fill="currentColor"
-                                viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
-                                ></path>
-                              </svg>
-                              Store
-                            </button>
-                            </a>
                             <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                                 aria-controls="navbar-cta" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
@@ -49,18 +33,20 @@
                         </div>
                         <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-cta">
                             <ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
+
                                 <li>
-                                    <a href="#home" class="block py-2 pr-4 pl-3 text-gray-800 rounded hover:bg-sky-900 md:hover:bg-transparent md:hover:text-blue-700 md:p-0" aria-current="page">Home</a>
+                                    <a href="#products" class="block py-2 pr-4 pl-3 text-gray-800 rounded hover:bg-sky-900 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Man</a>
                                 </li>
                                 <li>
-                                    <a href="#products" class="block py-2 pr-4 pl-3 text-gray-800 rounded hover:bg-sky-900 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Products</a>
+                                    <a href="#about" class="block py-2 pr-4 pl-3 text-gray-800 rounded hover:bg-sky-900 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Woman</a>
+                                </li>
+                                <li>
+                                    <a href="#contact" class="block py-2 pr-4 pl-3 text-gray-800 rounded hover:bg-sky-900 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Best Seller</a>
                                 </li>
                                 <li>
                                     <a href="#about" class="block py-2 pr-4 pl-3 text-gray-800 rounded hover:bg-sky-900 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">About</a>
                                 </li>
-                                <li>
-                                    <a href="#contact" class="block py-2 pr-4 pl-3 text-gray-800 rounded hover:bg-sky-900 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact</a>
-                                </li>
+
                             </ul>
                         </div>
                     </div>
@@ -94,61 +80,62 @@
                 </div>
                 <!-- Slider controls -->
                 <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-            <span
-              class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          <span
+            class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-hidden="true"
-                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M15 19l-7-7 7-7"
-                ></path>
-              </svg>
-              <span class="sr-only">Previous</span>
-                        </span>
-                        </button>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              ></path>
+            </svg>
+            <span class="sr-only">Previous</span>
+                      </span>
+                      </button>
                 <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-            <span
-              class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          <span
+            class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-hidden="true"
-                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5l7 7-7 7"
-                ></path>
-              </svg>
-              <span class="sr-only">Next</span>
-            </span>
-          </button>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
             </div>
 
             <!-- 
-              <img src="assets/images/body_challenge.png" class="h-auto w-full px-36  mt-12 " alt="">
-            -->
+            <img src="assets/images/body_challenge.png" class="h-auto w-full px-36  mt-12 " alt="">
+          -->
         </div>
     </header>
 
     <section id="products">
         <div class="grid grid-cols-2 flex justify-items-center px-16 mt-8">
+
             <div class="relative">
-                <a href="store.html" class="absolute inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+                <a class="absolute inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
                     <p class="font-medium">Norecture</p>
                     <h1 class="tracking-wider text-7xl font-medium">MAN</h1>
                 </a>
@@ -158,8 +145,8 @@
                     </div>
                 </a>
             </div>
-            <div class="relative mb-16">
-                <a href="store.html" class="absolute inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
+            <div class="relative">
+                <a class="absolute inset-0 z-10 bg-white text-center flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300">
                     <p class="font-medium">Norecture</p>
                     <h1 class="tracking-wider text-7xl font-medium">WOMAN</h1>
                 </a>
@@ -171,6 +158,53 @@
             </div>
         </div>
 
+        <div class="grid grid-cols-3 flex justify-items-center px-8 mt-16 mb-6">
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product_woman2.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product3.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product2.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product_woman.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product_woman3.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="text-xl font-bold flex justify-center mb-14">See More Products</p>
 
 
     </section>
