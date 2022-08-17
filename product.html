@@ -11,10 +11,11 @@
 
 </head>
 
-<body class="bg-[#d0cbc7]">
+
+<body id="body" class="bg-white flex flex-col">
     <script src="https://unpkg.com/flowbite@latest/dist/flowbite.js"></script>
-    <header id="home">
-        <div class="h-auto flex justify-center items-center mx-auto flex-col">
+    <header id="home" class="sticky top-0 block z-10">
+        <div class="h-auto flex justify-center items-center mx-auto flex-col ">
             <div class="bg-white w-full">
                 <nav class="border-gray-200 px-2 sm:px-4 py-2.5 ">
                     <div class="container flex flex-wrap justify-between items-center mx-auto">
@@ -56,6 +57,103 @@
     </header>
 
 
+    <section class="product flex  justify-start items-start px-80 mb-16">
+        <div class="sticky top-14 ">
+            <div class="flex flex-col w-16">
+                <a href="#body">
+                    <img src="assets/images/product.jpg" class="w-full mt-4" alt="">
+                </a>
+                <a href="#image2">
+                    <img src="assets/images/product.jpg" class="w-full mt-4" alt="">
+                </a>
+                <a href="#image3">
+                    <img src="assets/images/product.jpg" class="w-full mt-4" alt="">
+                </a>
+                <a href="#image4">
+                    <img src="assets/images/product.jpg" class="w-full mt-4" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col w-[800px] ml-16">
+            <img id="image1" src="assets/images/product2.jpg" class="w-full mb-16 mt-4" alt="">
+            <img id="image2" src="assets/images/product2.jpg" class="w-full mb-16 mt-4" alt="">
+            <img id="image3" src="assets/images/product2.jpg" class="w-full mb-16 mt-4" alt="">
+            <img id="image4" src="assets/images/product2.jpg" class="w-full mt-4" alt="">
+        </div>
+        <div class="flex flex-col w-96 mr-8 ml-8 mt-6 h-screen pb-64 h-screen sticky top-[-100px]">
+            <p class="font-serif text-xl mb-8 text-gray-800">Norecture</p>
+            <hr>
+            <p class="font-bold font-serif text-2xl text-gray-700">Baskılı oversize Tshirt Erkek</p>
+            <p class="font-serif text-3xl text-gray-500 mt-4">350 TL</p>
+            <p class="font-sans text-base text-gray-500 mt-8">%100 Cotton </p>
+            <p class="font-sans text-base text-gray-500 mt-8">With the dyeing technique preferred at the stage of coloring the threads; the amount of water consumed and the damage to the environment are minimized.</p>
+            <p class="font-sans text-base text-gray-500 mt-8">The product sent as washed; Eliminates the pulling problem</p>
+            <p class="font-bold font-serif text-2xl text-gray-700 mt-10">Modal dimensions:</p>
+            <p class="font-serif text-base text-gray-500 mt-8">
+                Lenght: 180 cm <br> Chest: 110 cm <br> Shoulder: 120 cm <br> Waist: 81 cm <br> Hip: 60cm
+            </p>
+            <p class="font-bold font-serif text-2xl text-gray-700 mt-10">Buy now:</p>
+            <a href="">
+                <img src="https://cdn.dsmcdn.com/web/logo/ty-web.svg" alt="trendyol" class="w-48 mt-4  rounded-lg hover:px-2 ease-in duration-300">
+            </a>
+            <a href="" class="mt-2">
+                <img src="https://www.shopier.com/image/shopier_logo_1.svg" alt="trendyol" class="w-48 mt-4 rounded-lg hover:px-2 ease-in duration-300">
+            </a>
+            <a href="" class="mt-6">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="trendyol" class="w-48 mt-4 rounded-lg hover:px-2 ease-in duration-300">
+            </a>
+
+        </div>
+    </section>
+    <hr>
+    <section id="products">
+        <div class="grid md:grid-cols-3 flex justify-items-center px-8 mt-16 mb-6">
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product_woman2.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-96 md:h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product3.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-96 md:h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product2.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-96 md:h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product_woman.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-96 md:h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-96 md:h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+            <div class=" mb-12 w-full">
+                <div class="group w-full flex flex-col px-4 pb-6 rounded-lg">
+                    <img src="assets/images/product_woman3.jpg" class="group-hover:p-2 ease-in duration-300 object-cover h-96 md:h-[700px] w-full" alt="">
+                    <p class="mt-4 text-gray-900">Norecture Oversize Unisex Tshirt</p>
+                    <p class="font-bold mt-2">350 TL</p>
+                </div>
+            </div>
+        </div>
+        <p class="text-xl font-bold flex justify-center mb-14">See More Products</p>
+
+    </section>
 
     <section id="about">
         <div id="contact" class="bg-gradient-to-r from-black to-gray-500 h-auto flex justify-between items-center mx-auto grid md:grid-cols-2">
@@ -79,9 +177,12 @@
         </div>
     </section>
 
+
+
+
     <footer class="text-center w-full mt-8 bottom-0 left-0">
         <p class="text-black opacity-75 italic mb-6">© Norecture- 2022</p>
     </footer>
 </body>
 
-</html>
+</html>d
